@@ -1,0 +1,33 @@
+@import url("parts/main.css");
+@import url("parts/footer.css");
+
+@import url("global.css");
+
+
+:root {
+
+    /* Weight */
+
+    --Mobile: 375px;
+    --Desktop: 1440px;
+
+    /* Primary */
+
+    --Soft_blue: hsl(215, 51%, 70%);
+    --Light_cyan: hsla(178, 100%, 50%, 0.5);
+    --Cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+
+    --Very_dark_blue: hsl(217, 54%, 11%);
+    --Dark_blue: hsl(216, 50%, 16%);
+    --Light_blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Font */
+
+    --Font_size: 18px;
+    --Little_weights: 300;
+    --Medium_weights: 400;
+    --Big_weights: 600;
+}

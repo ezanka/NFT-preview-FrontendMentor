@@ -1,0 +1,24 @@
+
+@import url('https://fonts.google.com/specimen/Outfit');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: var(--Font_size);
+    font-family: "Outfit", sans-serif;
+    font-weight: var(--Medium_weights);
+
+    background-color: var(--Very_dark_blue);
+}
+
